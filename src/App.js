@@ -62,13 +62,15 @@ const App = () => {
       ) : (
         <p id="para1">WELCOME TO MY REACT APP</p>
       )}
-       {application === 1 ? (
-        listApplication ()
+      {application === 1 ? (
+        listApplication()
       ) : (
-        <img src="./" id="para1" width="500" height="600"></img>
-
+        <img
+          src="https://reactjs.org/logo-og.png"
+          alt="React Image"
+          id="img1"
+        />
       )}
-
     </>
   );
 };
