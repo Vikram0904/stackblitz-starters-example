@@ -1,0 +1,11 @@
+li {
+  height: 20px;
+  width: 100vh;
+  border: 2px solid yellow;
+  list-style-type: none;
+  text-align: center;
+  margin: 5px;
+  color: whitesmoke;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
